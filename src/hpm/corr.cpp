@@ -1,4 +1,4 @@
-#include "corr.hpp"
+#include <hpm/private/corr.hpp>
 
 namespace hpm {
 namespace corr {

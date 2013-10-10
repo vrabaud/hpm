@@ -5,7 +5,7 @@
 #include <vector>
 #include <opencv2/features2d/features2d.hpp>
 
-#include "util.hpp"
+#include <hpm/util.hpp>
 
 static const double pi = 3.14159265358979323846;
 

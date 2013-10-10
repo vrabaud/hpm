@@ -1,4 +1,4 @@
-#include "feature.hpp"
+#include <hpm/private/feature.hpp>
 
 namespace hpm {
 

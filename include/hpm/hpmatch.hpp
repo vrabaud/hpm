@@ -5,8 +5,8 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/features2d/features2d.hpp>
 
-#include "feature.hpp"
-#include "corr.hpp"
+#include "private/feature.hpp"
+#include "private/corr.hpp"
 
 namespace hpm {
 using namespace cv;

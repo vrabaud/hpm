@@ -1,4 +1,4 @@
-#include "hpmatch.hpp"
+#include <hpm/hpmatch.hpp>
 
 using namespace std;
 using namespace cv;

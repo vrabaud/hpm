@@ -4,7 +4,7 @@
 #include <vector>
 #include <opencv2/features2d/features2d.hpp>
 
-#include "util.hpp"
+#include <hpm/util.hpp>
 
 namespace hpm {
 namespace corr {
