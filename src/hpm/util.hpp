@@ -5,6 +5,19 @@
 
 namespace hpm {
 
+template<class T> inline
+void radixsort(std::vector<T> &source, std::vector<size_t> &ind);
+
+template<class T>
+std::vector<T> unique_count_core(const std::vector<T>& s_a, std::vector<size_t>& f,
+                                                                 std::vector<std::vector<size_t> >& index, bool option = true);
+
+template<class T>
+std::vector<T> unique_count(const std::vector<T>& a, std::vector<size_t>& f, std::vector<std::vector<size_t> >& index);
+
+template <class T>
+inline int compare(const T &a,const T &b);
+
 //------------------------------------------------------------
 // implode a (vector/array) container of containers into a
 // flat container
